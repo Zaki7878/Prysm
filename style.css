@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    width: 100vw;
+}
+.nav1{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    margin-top: 3px; 
+}
+nav.navBar01 {
+    display: flex;
+    height: 65px;
+    justify-content: space-between; 
+    width: 800px;
+}
+.navBar01 .nav-ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-left: 40px;
+}
+.li{
+    display: flex;
+    margin-top: 5px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 26px;
+}
+.logo-img{
+    height: 5vh;
+}
+.nav-img{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.mail{
+    height:3.1vh ;
+    margin-top: 6px;
+}
+.location{
+    height: 30px;
+    margin-top: 5px;
+}
+.phone{
+    height: 25px;
+    margin-top: 10px;
+}
+.light{
+    opacity: 0.6;
+    margin-top: 8px;
+}
+h5{
+    cursor: pointer;
+}
+#select {
+    margin-top: 5px;
+    border: white;
+    height: 20px;
+}
+.nav2{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+   justify-content: center;  
+}
+.navBar02 {
+    position: relative;
+    z-index: 4;
+}
+.navBar02 .ul{
+display: flex;
+background-color: #1E90FF;
+
+align-items: center;
+justify-content: space-evenly;
+width: 800px;
+height: 65px;
+list-style: none;
+}
+.navBar02 ul li{
+    margin-top: 9px;
+}
+.navBar02 ul li a{
+    color:white;
+    text-decoration: none;
+    line-height: 40px;
+    font-weight: 600;
+}
+.navBar02 ul li button{
+    cursor: pointer;
+   padding: 12px;
+   background-color: white;
+    font-weight: 600;
+    border:none;
+}
+.navBar02 ul ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E90FF;
+   
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.6s;
+  position: absolute;
+   
+}
+.navBar02 ul li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+    
+}
+.navBar02 ul ul li {
+   list-style: none;
+   
+
+    color: white;
+}
+ 
+.navBar02 ul ul li a{
+  
+display: block;
+}
+.navBar02 ul li a{
+    padding: 0px 15px;
+}
+/* nav ul .drag-down{
+   
+} */
+
+ /* @media only screen and (max-width: 1516px) {
+
+    .nav1{
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+       justify-content: center;
+        margin-top: 3px;
+        border: 2px solid red;
+    }
+    
+}  */
+.section1 .hero {
+width: 900px;
+overflow: hidden;
+}
+.section1 .hero{
+background-image:url(picture/hero.jpg);
+width: 100vw ;
+background-size: cover; 
+background-position: center;
+height: 400px;
+}
+
+
+.section1{
+   position: absolute;
+   top: 100px;
+}
+.aligntext{
+    width: 100vw ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.section1 .hero .heroText{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+   
+   
+    justify-content: center;
+    color: white;
+    height: 400px;
+   
+}
+.herotext2{
+    width: 400px;
+}
+.Counseling{
+    background-color: gray;
+    font-size: 13px;
+    border-radius: 9px;
+    width: 230px;
+    padding: 4px;
+}
+.section1 .heroText .herotext2 .opp{
+    font-size: 45px;
+}
+.section2{
+    width: 100vw;
+    display: flex;
+   justify-content: center;
+   
+    position: relative;
+    top: 330px;
+    z-index: 3;
+}
+.down-img{
+
+    display: flex;
+   justify-content: flex-end;
+     gap: 10px;
+    
+   width: 800px;
+  
+}
+.img-down{
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 3;   
+    border-radius: 50%;
+    border:1px solid #1E90FF;
+    
+    width: 60px;
+    height: 60px;
+}
+.tahir{
+    background-image: url(picture/tahir.jpg);    
+}
+.muzamil{
+    background-image: url(picture/muzzamil.jpg);
+}
+.jansel{
+    background-image: url(picture/jansel.jpg);
+}
